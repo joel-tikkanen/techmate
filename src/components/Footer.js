@@ -5,10 +5,11 @@ import { Box, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 
 const FooterContainer = styled(Box)(({ theme }) => ({
-  backgroundColor: "#1E1E1E",
+  backgroundColor: "#212121",
   color: "white",
-  padding: theme.spacing(2),
+  padding: theme.spacing(3),
   textAlign: "center",
+  fontFamily: 'SF Mono, monospace',
   position: "fixed",
   bottom: 0,
   width: "100%",
@@ -17,7 +18,7 @@ const FooterContainer = styled(Box)(({ theme }) => ({
 const Footer = () => {
   return (
     <FooterContainer>
-      <Typography variant="body2">
+      <Typography variant="body3">
         © {new Date().getFullYear()} Techmate. All rights reserved.
       </Typography>
     </FooterContainer>
