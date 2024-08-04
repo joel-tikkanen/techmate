@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/techmate/static/css/main.44819cfd.css",
-    "main.js": "/techmate/static/js/main.cee183df.js",
-    "static/js/453.d7416746.chunk.js": "/techmate/static/js/453.d7416746.chunk.js",
-    "index.html": "/techmate/index.html",
-    "main.44819cfd.css.map": "/techmate/static/css/main.44819cfd.css.map",
-    "main.cee183df.js.map": "/techmate/static/js/main.cee183df.js.map",
-    "453.d7416746.chunk.js.map": "/techmate/static/js/453.d7416746.chunk.js.map"
+    "main.css": "/static/css/main.44819cfd.css",
+    "main.js": "/static/js/main.ac3ddeef.js",
+    "static/js/453.d7416746.chunk.js": "/static/js/453.d7416746.chunk.js",
+    "index.html": "/index.html",
+    "main.44819cfd.css.map": "/static/css/main.44819cfd.css.map",
+    "main.ac3ddeef.js.map": "/static/js/main.ac3ddeef.js.map",
+    "453.d7416746.chunk.js.map": "/static/js/453.d7416746.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44819cfd.css",
-    "static/js/main.cee183df.js"
+    "static/js/main.ac3ddeef.js"
   ]
 }
