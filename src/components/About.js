@@ -46,15 +46,15 @@ const About = () => {
     <ElevatedBox maxWidth="md">
       <Grid container spacing={4}>
         <Grid item xs={12}>
-          <StyledTypography variant="h3" align="center" gutterBottom>
-            Tietoa Techmatesta
+          <StyledTypography variant="h4" align="center" gutterBottom>
+            Esittely
           </StyledTypography>
         </Grid>
         <Grid item xs={12}>
           <StyledTypography variant="body1">
             Techmate on tuore ohjelmistoyritys, jonka tavoitteena on tarjota
             asiakaskeskeisiä, kustannustehokkaita ja samalla laadukkaita
-            ohjelmistoratkaisuja kaikenkokoisille yrityksille. Palvelumme kattavat 
+            ohjelmistoratkaisuja kaikenkokoisille yrityksille. <br/> <br/>Palvelumme kattavat 
             kaiken verkkosivuista mobiilisovelluksiin ja monimutkaisempiin järjestelmiin.
           </StyledTypography>
 

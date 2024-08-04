@@ -1,7 +1,7 @@
 // src/App.js
 
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
 import HomePage from "./pages/LandingPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import AppBar from "@mui/material/AppBar";
@@ -77,6 +77,7 @@ function App() {
             minHeight: "100vh",
             display: "flex",
             flexDirection: "column",
+            backgroundColor: "#121212"
           }}
         >
           <AppBar position="static">

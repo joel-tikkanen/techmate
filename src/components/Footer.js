@@ -7,7 +7,7 @@ import { styled } from "@mui/system";
 const FooterContainer = styled(Box)(({ theme }) => ({
   backgroundColor: "#212121",
   color: "white",
-  padding: theme.spacing(3),
+  padding: theme.spacing(2),
   textAlign: "center",
   fontFamily: 'SF Mono, monospace',
   position: "fixed",
@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <Typography variant="body3">
-        © {new Date().getFullYear()} Techmate. All rights reserved.
+        © {new Date().getFullYear()} Techmate
       </Typography>
     </FooterContainer>
   );
