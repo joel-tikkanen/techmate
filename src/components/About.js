@@ -52,7 +52,7 @@ const About = () => {
         </Grid>
         <Grid item xs={12}>
           <StyledTypography variant="body1">
-            Techmate on ohjelmistoyritys, joka tarjoaa
+            Techmate on ohjelmistoyritys joka tarjoaa
             asiakaskeskeisiä, kustannustehokkaita ja samalla laadukkaita
             ohjelmistoratkaisuja kaikenkokoisille yrityksille. <br/> <br/>Palvelumme kattavat 
             kaiken verkkosivuista mobiilisovelluksiin ja monimutkaisempiin järjestelmiin.
@@ -76,9 +76,9 @@ const About = () => {
             Parhaiten saat meidät kiinni sähköpostitse <b>techmate.tmi@gmail.com</b>
           </StyledTypography>
 
-          <StyledTypography variant="body1">
+          {/* <StyledTypography variant="body1">
             Suosittelemme myös perehtymään portfoliosta löytyviin toteutettuihin projekteihin!
-          </StyledTypography>
+          </StyledTypography> */}
         </Grid>
         {/* <Grid item xs={12} align="center">
           <Button

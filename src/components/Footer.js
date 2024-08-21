@@ -9,7 +9,7 @@ const FooterContainer = styled(Box)(({ theme }) => ({
   color: "white",
   padding: theme.spacing(2),
   textAlign: "center",
-  fontFamily: 'SF Mono, monospace',
+  fontFamily: "SF Mono, monospace",
   position: "fixed",
   bottom: 0,
   width: "100%",
@@ -18,6 +18,9 @@ const FooterContainer = styled(Box)(({ theme }) => ({
 const Footer = () => {
   return (
     <FooterContainer>
+      Y-tunnus: 3435344-5
+      <br />
+      <br />
       <Typography variant="body3">
         © {new Date().getFullYear()} Techmate
       </Typography>
