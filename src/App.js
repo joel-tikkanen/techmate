@@ -1,7 +1,5 @@
-// src/App.js
-
 import React, { useState, useEffect } from "react";
-import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import HomePage from "./pages/LandingPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import AppBar from "@mui/material/AppBar";
@@ -12,12 +10,12 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { styled } from "@mui/system";
 import Footer from "./components/Footer";
 import { Box } from "@mui/material";
+import SpeedometerPP from "./pages/SpeedometerPP";
+import SpeedometerTOS from "./pages/SpeedometerTOS";
 
 // Create a theme instance with Open Sans as the default font
 const theme = createTheme({
   typography: {
-    // fontFamily: 'Open Sans, Arial, sans-serif',
-
     fontFamily: "SF Mono, monospace",
   },
   palette: {
@@ -59,9 +57,7 @@ const Title = styled(Typography)(({ theme }) => ({
 function App() {
   const [underscore, setUnderscore] = useState(true);
 
-
   useEffect(() => {
-
     const interval = setInterval(() => {
       setUnderscore(prev => !prev);
     }, 500);
@@ -99,6 +95,8 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/portfolio" element={<PortfolioPage />} />
+              <Route path="/speedometerpp" element={<SpeedometerPP />} />
+              <Route path="/speedometertos" element={<SpeedometerTOS />}/>
             </Routes>
           </Box>
 
